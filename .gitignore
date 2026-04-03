@@ -1,0 +1,19 @@
+# --- Bases de Datos y Volúmenes ---
+# Ignorar el contenido de MySQL pero mantener la carpeta
+vol-data/*
+!vol-data/.gitkeep
+
+# Ignorar archivos generados por la App pero mantener la carpeta
+vol-app/*
+!vol-app/.gitkeep
+
+# --- Python & Entornos ---
+__pycache__/
+*.py[cod]
+*$py.class
+sistema/env/
+venv/
+.env
+
+# --- Herramientas y Otros ---
+.vscode/
