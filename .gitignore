@@ -13,6 +13,7 @@ __pycache__/
 *$py.class
 sistema/env/
 venv/
+env/
 .env
 
 # --- Herramientas y Otros ---
